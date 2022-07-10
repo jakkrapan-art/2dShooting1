@@ -1,0 +1,374 @@
+{
+  "modifiers": [
+    {
+      "categoryName": "weapon-modifier",
+      "stats": [
+        {
+          "statName": "damage",
+          "values": [
+            {
+              "rarity": "common",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "uncommon",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "rare",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "epic",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "legendary",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryName": "range-weapon-modifier",
+      "stats": [
+        {
+          "statName": "fire-rate",
+          "values": [
+            {
+              "rarity": "common",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "uncommon",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "rare",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "epic",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "legendary",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "statName": "projectile-count",
+          "values": [
+            {
+              "rarity": "common",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "uncommon",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "rare",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "epic",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "legendary",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "statName": "projectile-speed",
+          "values": [
+            {
+              "rarity": "common",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "uncommon",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "rare",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "epic",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "legendary",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "statName": "projectile-duration",
+          "values": [
+            {
+              "rarity": "common",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "uncommon",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "rare",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "epic",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "legendary",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "statName": "accuracy",
+          "values": [
+            {
+              "rarity": "common",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "uncommon",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "rare",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "epic",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "legendary",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "statName": "ammo-capacity",
+          "values": [
+            {
+              "rarity": "common",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "uncommon",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "rare",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "epic",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "legendary",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "statName": "ammo-consume",
+          "values": [
+            {
+              "rarity": "common",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "uncommon",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "rare",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "epic",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "legendary",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "statName": "reload-time",
+          "values": [
+            {
+              "rarity": "common",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "uncommon",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "rare",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "epic",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "rarity": "legendary",
+              "valueRange": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

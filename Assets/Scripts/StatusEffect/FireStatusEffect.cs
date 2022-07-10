@@ -23,9 +23,9 @@ public class FireStatusEffect : StatusEffect
         _effectType = template._effectType;
     }
 
-    public override void Effect()
+    public override void Execute()
     {
-        base.Effect();
+        base.Execute();
         if (Time.time - _lastTriggerTime >= _damageInterval)
         {
             _lastTriggerTime = Time.time;

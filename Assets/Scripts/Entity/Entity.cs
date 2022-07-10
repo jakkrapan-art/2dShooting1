@@ -155,19 +155,19 @@ public class Entity : MonoBehaviour, IDamageable, IStatusEffectAppliable
         switch (statusEffect.GetTriggerType)
         {
             case StatusEffectTriggerType.OnDamageTaken:
-                OnGetAttacked += statusEffect.Effect;
+                OnGetAttacked += statusEffect.Execute;
                 break;
             case StatusEffectTriggerType.OnHealed:
-                OnHealed += statusEffect.Effect;
+                OnHealed += statusEffect.Execute;
                 break;
             case StatusEffectTriggerType.OnDied:
-                OnDied += statusEffect.Effect;
+                OnDied += statusEffect.Execute;
                 break;
             case StatusEffectTriggerType.EveryTime:
-                OnUpdateEffect += statusEffect.Effect;
+                OnUpdateEffect += statusEffect.Execute;
                 break;
             case StatusEffectTriggerType.OnApplied:
-                OnStatusEffectApplied += statusEffect.Effect;
+                OnStatusEffectApplied += statusEffect.Execute;
                 break;
         }
 
@@ -185,19 +185,19 @@ public class Entity : MonoBehaviour, IDamageable, IStatusEffectAppliable
         switch (statusEffect.GetTriggerType)
         {
             case StatusEffectTriggerType.OnDamageTaken:
-                OnGetAttacked -= statusEffect.Effect;
+                OnGetAttacked -= statusEffect.Execute;
                 break;
             case StatusEffectTriggerType.OnHealed:
-                OnHealed -= statusEffect.Effect;
+                OnHealed -= statusEffect.Execute;
                 break;
             case StatusEffectTriggerType.OnDied:
-                OnDied -= statusEffect.Effect;
+                OnDied -= statusEffect.Execute;
                 break;
             case StatusEffectTriggerType.EveryTime:
-                OnUpdateEffect -= statusEffect.Effect;
+                OnUpdateEffect -= statusEffect.Execute;
                 break;
             case StatusEffectTriggerType.OnApplied:
-                OnStatusEffectApplied -= statusEffect.Effect;
+                OnStatusEffectApplied -= statusEffect.Execute;
                 break;
         }
 

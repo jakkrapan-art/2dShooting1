@@ -14,9 +14,9 @@ public class RegenerationEffect : StatusEffect
         _effectType = StatusEffectType.Duration;
     }
 
-    public override void Effect()
+    public override void Execute()
     {
-        base.Effect();
+        base.Execute();
 
         if (Time.time - _lastTriggerTime >= _healInterval)
         {
